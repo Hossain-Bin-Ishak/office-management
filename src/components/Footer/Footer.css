@@ -1,0 +1,36 @@
+.social-icon {
+    margin: 0 auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.social-icon svg {
+    color: #fff;
+}
+.social-icon .fb {
+    background: #3B5998;
+    padding: 7px 15px;
+    border-radius: 50%;
+}
+.social-icon .wa {
+    background: #25D366;
+    padding: 7px 13px;
+    border-radius: 50%;
+}
+.social-icon .ig {
+    background: #125688;
+    padding: 7px 13px;
+    border-radius: 50%;
+}
+.social-icon .tr {
+    background: #55ACEE;
+    padding: 7px 13px;
+    border-radius: 50%;
+}
+.footer-area p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+}
