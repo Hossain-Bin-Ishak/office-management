@@ -1,0 +1,18 @@
+.cards{
+
+ 
+}
+
+.single-card{
+    width: 230px;
+    height: 150px;
+    margin-top: 40px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.manager-info{
+display: grid;
+grid-template-columns: auto auto;
+align-items: center;
+}
