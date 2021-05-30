@@ -1,6 +1,11 @@
-.single-card{
+.cards{
+
+ 
+}
+
+.singleCard{
     width: 230px;
-    height: 150px;
+    height: 100px;
     margin-top: 40px;
     padding: 15px;
     border-radius: 10px;

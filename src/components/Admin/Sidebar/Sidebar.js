@@ -1,4 +1,4 @@
-import { faChalkboardTeacher, faClipboardList, faMoneyBillWave, faUserFriends, faUserTie } from '@fortawesome/free-solid-svg-icons';
+import { faChalkboardTeacher, faClipboardList, faEdit, faMoneyBillWave, faUserFriends, faUserTie } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Sidebar.css';
@@ -11,15 +11,17 @@ const Sidebar = ({handleSidebar}) => {
                     <li onClick={() => handleSidebar('dashboard')}>
                         <span> <FontAwesomeIcon icon={faChalkboardTeacher}/> Dashboard</span>
                     </li>
+                     
+                    <li onClick={() => handleSidebar('attendance')}>
+                        <span> <FontAwesomeIcon icon={faEdit}/>  Attendance</span>
+                    </li>
+                    <li onClick={() => handleSidebar('management')}>
+                        <span> <FontAwesomeIcon icon={faUserTie}/>  Manager</span>
+                    </li>
                     <li onClick={() => handleSidebar('employee')}>
                         <span> <FontAwesomeIcon icon={faUserFriends}/>  Employee</span>
                     </li>
-                    <li onClick={() => handleSidebar('management')}>
-                        <span> <FontAwesomeIcon icon={faUserTie}/>  Management</span>
-                    </li>
-                    <li onClick={() => handleSidebar('attendance')}>
-                        <span> <FontAwesomeIcon icon={faChalkboardTeacher}/>  Attendance</span>
-                    </li>
+                   
                     <li onClick={() => handleSidebar('fee')}>
                         <span> <FontAwesomeIcon icon={faMoneyBillWave}/>  Salary</span>
                     </li>

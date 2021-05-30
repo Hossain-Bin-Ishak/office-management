@@ -4,8 +4,8 @@ import Sidebar from './Sidebar/Sidebar';
 import Dashboard from './Dashboard/Dashboard';
 import Employee from './Employee/Employee';
 import Attendance from './Attendance/Attendance';
-import Fee from './Fee/Fee';
 import Notice from './Notice/Notice';
+import Salary from './Salary/Salary';
 
 const Admin = () => {
     const [pathSelected, setPathSelected] = useState('');
@@ -26,7 +26,7 @@ const Admin = () => {
                         pathSelected == 'employee' ? <Employee /> :
                         pathSelected == 'management' ? <Management /> :
                         pathSelected == 'attendance' ? <Attendance /> :
-                        pathSelected == 'fee' ? <Fee /> :
+                        pathSelected == 'fee' ? <Salary /> :
                         pathSelected == 'notice' ? <Notice /> : <Dashboard />
                     }
                 </div>
