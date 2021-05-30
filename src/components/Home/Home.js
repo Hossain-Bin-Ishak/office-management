@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../Navbar/Navbar';
 import './Home.css';
 import any from '../../images/HomePage/any.jpg';
 import Footer from '../Footer/Footer';
@@ -22,7 +21,6 @@ const infos = [
 const Home = () => {
     return (
         <div>
-            <Navbar />
 
             <div className="main-area mb-5">
                 <h2 className="title">Welcome</h2>
