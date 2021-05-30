@@ -1,0 +1,24 @@
+.attendance-area {
+    border: 1px solid #428BCA;
+    margin: 100px 80px 0 80px;
+}
+.attendance-area h4 {
+    border-bottom: 1px solid #428BCA;
+    background: #428BCA;
+    padding: 13px 0;
+    color: #fff;
+}
+.attendance-area .table-head {
+    border-bottom: 3px solid #DDDDDD;
+}
+.attendance-area .table-head p {
+    font-weight: 700;
+}
+.attendance-area p {
+    font-size: 18px;
+    font-weight: 400;
+}
+.attendance-area .table-info {
+    border-bottom: 1px solid #DDD;
+    padding: 13px 0 0;
+}

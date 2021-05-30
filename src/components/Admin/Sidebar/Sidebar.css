@@ -1,0 +1,12 @@
+.sidebar-detail {
+    background: #2F323A;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+}
+.sidebar-detail li {
+    margin: 20px 0;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
